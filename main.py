@@ -104,7 +104,7 @@ class VGG16(nn.Module):
 # Thêm middleware CORS
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://127.0.0.1:5500"],  # Địa chỉ của frontend của bạn
+    allow_origins=["http://imageclassifyapp.s3-website-us-west-1.amazonaws.com"],  # Địa chỉ của frontend của bạn
     allow_credentials=True,
     allow_methods=["*"],  # Hoặc chỉ định các phương thức bạn muốn cho phép
     allow_headers=["*"],  # Hoặc chỉ định các header bạn muốn cho phép

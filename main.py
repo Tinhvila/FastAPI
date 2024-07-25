@@ -3,7 +3,6 @@ import torch
 import torchvision.transforms as transforms
 from PIL import Image
 import torch.nn as nn
-import torch.nn.functional as F
 import io
 from fastapi.middleware.cors import CORSMiddleware
 

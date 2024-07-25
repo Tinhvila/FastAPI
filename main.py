@@ -112,7 +112,7 @@ app.add_middleware(
 
 
 # Load mô hình
-MODELNAME = "C:\\Users\\DELL\\Desktop\\scp_project\\Model\\cifar10_model.pt"
+MODELNAME = "./cifar10_model.pt"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 
 model = VGG16().to(DEVICE)

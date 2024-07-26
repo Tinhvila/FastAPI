@@ -120,7 +120,8 @@ model.load_state_dict(torch.load(MODELNAME, map_location=torch.device('cpu')))
 model.eval()
 
 # Danh sách tên lớp tương ứng
-classes = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
+classes = ['飛行機', '自動車', '鳥', '猫', '鹿', '犬', 'カエル', '馬', '船', 'トラック']
+# classes = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
 # Chuẩn bị transform
 transform = transforms.Compose([
